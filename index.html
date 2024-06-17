@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | @heresthecode</title>
+
+    <!--  FONT-AWeSOME  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--  MAIN CSS  -->
+    <link rel="stylesheet" href="Style/styles.css" />
+  </head>
+  <body>
+    <!--  header design  -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contributions</a>
+        
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--  home section design  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Good day! Hi, Myself</h3>
+        <h1>Sethuramalingam Duraisamy</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Seeking a position that provides challenging and rewarding experiences
+          with professional growth
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/sethuramalingam-duraisamy-587206110/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Sethuramalingam-art" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <!-- <div class="home-img">
+        <img src="img/profiledb-circle2.png" alt="" />
+      </div> -->
+    </section>
+
+    <!--  about section design  -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/fullimg1.JPG" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Senior Frontend/ Mobile App/ MERN/ MEAN Developer</h3>
+        <p>
+          As a highly skilled 9.5+ YOE, Senior Frontend and Mobile App Developer
+          with extensive experience in system design, architecture, and
+          problem-solving, I bring a deep understanding of both the technical
+          and user experience aspects of application development. My expertise
+          spans across various frontend technologies and mobile platforms,
+          enabling me to deliver high-quality, scalable, and robust applications
+          that meet complex business requirements.
+        </p>
+        <h2>Location : Chennai, India</h2>
+        <h2>Mail :  <a class="linkTo" href="https://mail.google.com/mail/?view=cm&fs=1&to=duraisamy.sethuramalingam@gmail.com" target="_blank">duraisamy.sethuramalingam@gmail.com</a></h2>
+        <h2>Dial/ Whatsapp : +91 9600713428</h2>
+      </div>
+    </section>
+
+    <!--  services section design  -->
+    <section class="services" id="services">
+      <h2 class="heading"><span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>FrontEnd</h3>
+          <h5>(*) - Years Of Experience</h5>
+          <p>
+            JavaScript (9) | TypeScript (5) | React (6) | Angular (4) | React
+            Native (3) | Tailwind CSS (2) | LESS (5) | CSS3 (6) | HTML5 (9) |
+            Angular Material (4) | Shadcn/ui (2) | Material Design (4) |
+            Bootstrap (5) | Micro Frontend (2) | Jasmine (2) | Jest Enzyme (4)
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-database"></i>
+          <h3>BackEnd</h3>
+          <h5>(*) - Years Of Experience</h5>
+          <p>
+            NodeJS (3) | NextJS (2) | NestJS (1) | MongoDB (4) | Mongoose (2) |
+            Mongoose Compass | Express (3) | Appwrite (1) | GraphQL (2) | REST
+            API (6) | Kafka (1) | Micro Services (2)
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <h3>Cloud/ Containerization</h3>
+          <p>
+            Docker | AWS EC2 | AWS S3 | AWS Lambda | AWS CloudFront | AWS IAM |
+            Vercel | Render | Expo | GitHub | Jenkins | Redis | Cloud Watch |
+            Clerk SSO | Stripe | FireBase | Google Console | JWT
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h3>Tools</h3>
+          <p>
+            SONAR | SENTRY | GraphiQL | Android Studio | Apollo Client | NVDA
+            Screen Reader | CYPRESS | SELENIUM | Google CRUX | Dynatrace |
+            Storybook | JIRA | Bitbucket | IDE (VS code / IntelliJ/ Eclipse)
+          </p>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-server"></i>
+          <h3>State Management Libraries</h3>
+          <p>Redux | NgRX | Zustand | Context API</p>
+        </div>
+      </div>
+    </section>
+
+    <!--  skills section design  -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Personal <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img/coin-tracker.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Coin Tracker Finance Management</h4>
+            <p>
+              Personal bank accounts management. Tech stack: React, NextJS, App
+              write
+            </p>
+            <div class="projects-link">
+              <a href="https://coin-tracker-gamma.vercel.app" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+              <a
+                href="https://github.com/Sethuramalingam-art/Banking-FinanceManagement"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/event-app.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Event Management</h4>
+            <p>
+              All Events scheduling and purchase tickets management. Tech stack:
+              React, NextJS, MongoDB
+            </p>
+            <div class="projects-link">
+              <a href="https://event-app-wheat.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+              <a
+                href="https://github.com/Sethuramalingam-art/EventApp"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/Let'sTalk.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Let's Talk</h4>
+            <p>
+              Chat Application(Whatsapp UI) - One to One and Group Chat using
+              Socket.io
+            </p>
+            <div class="projects-link">
+              <a href="https://lets-talk-acs2.onrender.com/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+              <a
+                href="https://github.com/Sethuramalingam-art/Websocket-Chat-APP"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/coffee-shop.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Coffee Shop Booking App</h4>
+            <p>Coffee shop order management. Tech stack: React Native</p>
+            <div class="projects-link">
+              <a
+                href="https://github.com/Sethuramalingam-art/RN-CoffeeShopApp"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  contact section design  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contributions</h2>
+      <div class="contributions">
+          <img src="img/github.png" alt="" />
+          <img src="img/DSA.png" alt="" />
+        </div>
+      </div>
+      <form>
+        <h5 class="heading" style="font-size: 3.0rem !important;">Contact <span>Me!</span></h5>
+        <div class="input-box">
+          <input
+            type="email"
+            value="mailTo: duraisamy.sethuramalingam@gmail.com"
+            placeholder="Email Address"
+            disabled
+          />
+        </div>
+        <input
+          type="submit"
+          value="Send Message"
+          onclick="send()"
+          class="btn"
+        />
+      </form>
+    </section>
+
+    <!--  contact section design  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2024 by @Sethuramalingam-art | All Rights Reserved.
+        </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <!--  TYPED JS  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--  SCROLL REVEAL  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--  MAIN JS  -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
