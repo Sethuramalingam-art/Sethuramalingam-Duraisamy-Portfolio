@@ -58,8 +58,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 const typed = new Typed(".multiple-text", {
   strings: [
     "Senior Frontend Developer",
-    "Mobile APP Developer",
-    "MEAN/ MERN Stack Developer",
+    "Full Stack Developer",
     "Technical Trainer",
   ],
   typeSpeed: 70,
