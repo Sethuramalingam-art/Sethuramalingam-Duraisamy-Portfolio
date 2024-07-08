@@ -56,11 +56,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 /*================================= typed js ===================================*/
 
 const typed = new Typed(".multiple-text", {
-  strings: [
-    "Senior Frontend Developer",
-    "Full Stack Developer",
-    "Technical Trainer",
-  ],
+  strings: ["Frontend Developer", "Full Stack Developer", "Technical Trainer"],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
